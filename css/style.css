@@ -1,0 +1,238 @@
+h1{
+  background-image: linear-gradient(dodgerblue,royalblue);
+  color: white;
+  font-family: "Calibri Light", "Calibri Light", serif;
+  font-size: 50px;
+}
+
+body{
+  background-color: lightgrey;
+  }
+
+.container{
+  margin: 0px 0px 0px 0px;
+}
+
+.main{
+
+}
+
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightslategrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  animation-name: example;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+th, td {
+  padding: 15px;
+}
+
+table {
+  border-spacing: 5px;
+  width:100%
+}
+
+.Contacts img{
+  height: 50px;
+  width: 50px;
+
+}
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t01 th {
+  background-color:grey;
+  color: white;
+}
+
+table#t02 tr:nth-child(even) {
+  background-color: #eee;
+}
+table#t02 tr:nth-child(odd) {
+  background-color: #fff;
+}
+table#t02 th {
+  background-color:grey;
+  color: white;
+}
+
+
+.Vk-image-link {
+  margin-right: 5px;
+  margin-left: 5px;
+  background-image: url("img/200px-VK.com-logo.svg.png");
+}
+
+
+
+.navigation-field {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  font-family: "Bahnschrift SemiBold",Bahnschrift SemiBold , serif;
+  font-size: 20px;
+  border-style: outset;
+}
+
+.navigation-field-item {
+  display: list-item;
+  cursor: pointer;
+}
+.navigation-field-item a {
+  font-family: "Bahnschrift SemiBold", Bahnschrift SemiBold, serif;
+}
+div {
+
+}
+ a{
+   color: white;
+   font-family: 'Bookman Old Style', cursive;
+ }
+
+.main-field{
+  margin: -40px 0px 0px 220px ;
+}
+
+.main-field div{
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+
+}
+
+.main-field h2{
+  font-family:"Bookman Old Style", Bookman Old Style, serif;
+  font-style: normal;
+  font-size: 35px;
+  color: royalblue;
+}
+
+.main-field p{
+  font-family:"Bookman Old Style", Bookman Old Style, serif;
+  font-style: normal;
+  font-size: 15px;
+}
+
+
+ul {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: block;
+  list-style-type: decimal;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.Photo-field{
+  content: "";
+  clear: both;
+  display: table;
+  margin: 0px 0px 0px 220px ;
+}
+.inline-block {
+  float: left;
+  width: 25%;
+}
+
+.personal-photo img{
+  position: absolute;
+  top: 100px;
+  border-radius: 20%;
+  width:300px ;
+  height:300px;
+  float: none;
+
+}
+.personal-photo{
+  padding: 0px !important;
+}
+
+.personal-information{
+  font-family: 'Gloria Hallelujah', cursive;
+  display: block;
+  height: 300px;
+
+}
+
+#pers-info{
+  margin-left: 350px;
+}
+
+.personal-information p {
+  font-size: 20px;
+}
+
+
+@keyframes example {
+  0%   {background-color:red;}
+  25%  {background-color:yellow; }
+  50%  {background-color:blue; }
+  75%  {background-color:green; }
+  100% {background-color:red; }
+}
+
+.Contacts dt{
+  font-family:"Bookman Old Style", Bookman Old Style, serif;
+  font-style: normal;
+  font-size: 15px;
+}
+.Contacts dd{
+  font-family:"Bookman Old Style", Bookman Old Style, serif;
+  font-style: normal;
+  font-size: 20px;
+  color: cornflowerblue;
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 1024px) {
+  #pers-info{
+    margin-top: 400px;
+    margin-left: 0px;
+    height: 300px;
+  }
+  .personal-photo img{
+
+    top: 150px;
+
+
+  }
+}
+
+
