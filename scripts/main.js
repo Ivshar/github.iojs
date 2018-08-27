@@ -218,8 +218,8 @@ function myFunction() {
     img.src = "img/200px-VK.com-logo.svg.png";
     btn.appendChild(img);
 
-    btn.appendChild(navbarlink1);
-    navbarlink1.appendChild(divco);
+    navbarlink1.appendChild(btn);
+  divco.appendChild(navbarlink1);
     div.appendChild(divco);
 
 
